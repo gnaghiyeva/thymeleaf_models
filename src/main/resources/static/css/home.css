@@ -1,0 +1,40 @@
+.intro{
+    background-color: #1ABC9C;
+    text-align: center;
+    padding: 20px 0;
+}
+.intro_img_container{
+    width: 20%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+
+.intro_image{
+    width: 100%;
+}
+
+.intro_texts{
+    color: white;
+}
+
+.intro_title{
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.intro_parag{
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.portfolio_title_container{
+    padding: 35px 0;
+}
+.portfolio_title{
+    color: #2C3E50;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+
