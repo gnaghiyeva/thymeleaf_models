@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
 <header th:fragment="header">
-header
+    <nav class="navbar">
+        <div class="nav_left">
+            <h1>Start Bootstrap</h1>
+        </div>
+        <div class="nav_right">
+            <ul class="nav_right_list">
+
+                <li class="nav_right_list_item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="nav_right_list_item">
+                    <a href="/about">About</a>
+                </li>
+                <li class="nav_right_list_item">
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 </body>
 </html>
