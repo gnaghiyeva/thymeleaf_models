@@ -19,6 +19,23 @@
         </article>
     </div>
 </section>
+
+<section layout:fragment="content" class="portfolio_cards">
+    <article class="portfolio_title_container" >
+        <h1 class="portfolio_title">PORTFOLIO</h1>
+    </article>
+    <div class="row m-auto mt-2 mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-12" th:each="portfolio:${portfolios}" >
+            <img th:src="${portfolio.getImage()}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 th:text="${portfolio.getName()}" class="card-title" >Card title</h5>
+                <p th:text="${portfolio.getDescription()}" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+            </div>
+        </div>
+
+    </div>
+</section>
 <footer th:replace="fragments/footer"></footer>
 </body>
 </html>
