@@ -1,0 +1,19 @@
+.contact_section{
+    padding: 30px 0;
+}
+.contact_text{
+    text-align: center;
+    font-size: 2.5em;
+    color: #2C3E50;
+}
+
+.form_container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.my_button{
+    background-color:#6AD3BF ;
+    padding:20px 40px;
+    border: none;
+}
